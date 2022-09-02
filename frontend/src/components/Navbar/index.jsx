@@ -16,7 +16,7 @@ function Navbar() {
                 id="vizewNav"
               >
                 <a href="index.html" className="nav-brand">
-                  <h2>Logo</h2>
+                  <h2>Log0</h2>
                 </a>
 
                 <div className="classy-navbar-toggler">
