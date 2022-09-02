@@ -16,7 +16,7 @@ const server = new ApolloServer({
   plugins: [ApolloServerPluginLandingPageGraphQLPlayground({})],
 });
 
-server.listen(5000, async () => {
+server.listen(process.env.PORT || 5000, async () => {
   mongoose.connect(process.env.MONGODB_URI);
 
   console.log("RUN SERVER ");
